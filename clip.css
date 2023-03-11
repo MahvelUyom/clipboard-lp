@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+body{
+    padding:5rem;
+}
+.history{
+    text-align: center;
+   
+}
+.history span{
+    font-size: 3rem;
+    font-weight: 800;
+    color: teal;
+}
+.history h2{
+    margin: 1rem 0;
+}
+.history p{
+    margin: 1rem 0;
+    line-height: 2rem;
+    padding: 0 3rem;
+}
+.ios{
+    background: teal;
+    padding: .8rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    color: white;
+    font-weight: 800;
+    border: 0;
+    margin-top: 1rem;
+}
+.mac{
+    background: rgb(133, 39, 222);
+    padding: .8rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: white;
+    font-weight: 800;
+    border: 0;
+}
+.snippet{
+    margin-top: 3rem;
+    text-align: center;
+
+}
+.snippet h2{
+    margin: 1rem 0;
+
+}
+.snippet p{
+    margin-top: 1rem;
+
+}
+.img-flex{
+    margin-top: 3rem;
+}
+.flex{
+    display: flex;
+}
+.flex img{
+    width: 25rem;
+    margin-right: 2rem;
+}
+.text h3{
+    margin:0 0 1rem 0;
+}
+.text p{
+    margin-bottom: 1rem;
+}
+.access{
+    text-align: center;
+}
+.access h2{
+    margin: 1rem 0;
+}
+.access img{
+    width: 25rem;
+}
+.supercharge{
+    margin: 3rem 0;
+    text-align: center;
+}
+.supercharge h2{
+margin: 1rem 0;
+}
+.stuff{
+    text-align: center;
+}
+.stuff-flex{
+    display: flex;
+}
+.stuffs{
+    margin-right: 2rem;
+}
+.stuffs h4{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+.os{
+    margin: 5rem 0;
+}
+.op-system{
+    display: flex;
+}
+.operate img{
+    width: 10rem;
+    margin: 2rem;
+}
+.clipboard{
+    text-align: center;
+}
+.clipboard h2{
+    margin: 1rem 0;
+}
+.clipboard p{
+    line-height: 2rem;
+}
+
+@media (max-width:950px) {
+    .stuff-flex, .op-system, .flex{
+        flex-direction: column;
+    }
+    .flex img, .access img{
+        width: 15rem;
+        margin-top: 2rem;
+    }
+    .flex img{
+        margin-bottom: 2rem;
+    }
+    .flex{
+        text-align: center;
+    }
+    .supercharge{
+        margin-top: 1rem;
+    }
+    .img-flex{
+        margin-top: 1rem;
+    }
+}
